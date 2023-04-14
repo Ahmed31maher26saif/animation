@@ -1,0 +1,163 @@
+.div1{
+    left: 0;
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    animation-name: changes ;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    
+    
+}
+
+@keyframes changes {
+    
+    0%{   
+        left: 0px; 
+    }
+   
+    100%{ 
+        left: 1200px;
+    }
+}
+
+
+/* ////////////////////////////////////// */
+.div2{
+    right: 0;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(55, 0, 255);
+    position: absolute;
+    margin-top: 105px;
+    animation-name: change ;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes change {
+    
+    0%{
+        right: 0;
+    }
+   
+    100%{
+        right: 1100px;
+    }
+}
+
+
+
+.div3{
+    left: 0;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(0, 255, 55);
+    position: absolute;
+    margin-top: 210px;
+    animation-name: changes ;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+
+    
+}
+
+@keyframes changes {
+    
+    0%{
+       
+        left: 0px;
+    }
+  
+    100%{
+       
+        left: 1100px;
+
+    }
+}
+
+.div4{
+    right: 0;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 251, 0);
+    position: absolute;
+    margin-top: 315px;
+    animation-name: change ;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes change {
+    
+    0%{     
+        right: 0;
+    }
+   
+    100%{
+        right: 1000px;
+    }
+}
+
+.div5{
+    left: 0;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 166, 0);
+    position: absolute;
+    margin-top: 420px;
+    animation-name: changes ;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes changes {
+    
+    0%{
+        left: 0px;
+    }
+   
+    100%{ 
+        left: 1100px;
+    }
+}
+.div6{
+    right: 0;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 0, 212);
+    position: absolute;
+    margin-top: 525px;
+    animation-name: change ;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes change {
+    
+    0%{
+        
+        right: 0;
+    }
+    
+    100%{
+        
+        right: 1100px;
+
+    }
+}
